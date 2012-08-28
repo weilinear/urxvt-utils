@@ -1,14 +1,14 @@
 ######################################################################
 ## Filename:      Makefile
 ##                
-## Copyright (C) 2012,  LI Wei
 ## Version:       
-## Author:        LI, Wei <cvhacker@live.com>
+## Author:        LI, Wei <kuantkid<at>gmail.com>
 ##                
-## Modified at:   Wed Jul 11 11:24:03 2012
-## Created at:    Mon Jun 11 16:20:09 2012
+## Modified at:   Tue Aug 28 14:13:29 2012
+## Created at:    Tue Aug 28 14:10:35 2012
 ##                
 ## Description:   
+## Copyright Wei LI (@kuantkid) Released Under Create Common BY-SA
 ######################################################################
 
 # folder settings

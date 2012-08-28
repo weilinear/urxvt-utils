@@ -57,4 +57,4 @@ Author of rxvt and its unicode support. Author of the original tabbed perl scrip
 
 Contact
 =======
-cvhacker(LI,Wei) cvhacker@live.com
+kuantkid(LI,Wei) kuantkid@gmail.com

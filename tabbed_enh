@@ -1,16 +1,15 @@
 #! perl
 ######################################################################
 ## Filename:      tabbed_enh
-##
-## Copyright (C) 2012,  LI Wei
-## Version:
-## Author:        LI, Wei <cvhacker@live.com>
-##
-## Modified at:   Wed Jul 11 14:04:52 2012
-## Created at:    Mon Jun 11 16:38:03 2012
-##
-## Description:
-## Acknowledge: Modified from the original file in rxvt-unicode
+##                
+## Version:       1.0.0
+## Author:        LI, Wei <kuantkid<at>gmail.com>
+##                
+## Modified at:   Tue Aug 28 14:13:10 2012
+## Created at:    Tue Aug 28 14:12:47 2012
+##                
+## Description:   
+## Copyright Wei LI (@kuantkid) Released Under Create Common BY-SA
 ######################################################################
 
 sub refresh {
