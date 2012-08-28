@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Urxvt Utilities : Set of Utilities for Rxvt Written in Perl" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Urxvt Utilities</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/kuantkid/urxvt-utils">View on GitHub</a>
+
+          <h1 id="project_title">Urxvt Utilities</h1>
+          <h2 id="project_tagline">Set of Utilities for Rxvt Written in Perl</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/kuantkid/urxvt-utils/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/kuantkid/urxvt-utils/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>urxvt-utils</h1>
+
+<p>Collection of useful ultilities for unicode-rxvt. Written in perl.</p>
+
+<p>tabbed_enh : Enhanced tab management tools for rxvt(urxvt) modified from the original ones with configurable keys. See the settings session for details.</p>
+
+<h2>Install</h2>
+
+<pre><code>$ git clone https://github.com/kuantkid/urxvt-utils.git &amp;&amp; make
+$ /usr/bin/urxvt -pe tabbed_enh
+</code></pre>
+
+<p>You may need authority currently to install this plugin. Or else you can copy the file into a desired foler and change the perl library path before using. That is by using the following script to start the urxvt</p>
+
+<pre><code>$ /usr/bin/urxvt --per-lib /some/where/ -pe tabbed_enh
+</code></pre>
+
+<p>Moreover, you can set the perl-lib in the .Xresources/.Xdefaults file as </p>
+
+<pre><code>URxvt.perl-lib: /some/where
+URxvt.perl-ext: tabbed_enh
+</code></pre>
+
+<h2>Settings</h2>
+
+<p>Tab Key Action is configurable in the .Xresources/.Xdefaults file, remember to run xrdb -merge .Xresources/.Xdefaults after configuration.</p>
+
+<pre><code>URxvt.tabbed-ctrlkey : 'ctrl' | ‘shift';
+URxvt.tabbed-movekey : 'ctrl' | 'shift';
+! next tab -&gt; right-arrow
+URxvt.tabbed-next    : 0xff53
+! previous tab -&gt; left-arrow
+URxvt.tabbed-pre     : 0xff51
+! close 0x0071 -&gt; w
+URxvt.tabbed-close   : 0x0077
+! open 0x0074 -&gt; t
+URxvt.tabbed-open    : 0x0074
+! close
+URxvt.tabbed-rename  : 0x0072 (NOT SUPPORTED YET)
+</code></pre>
+
+<h2>Comments</h2>
+
+<ol>
+<li> Make sure that the movekey and ctrlkey are not the same. No default provided.</li>
+<li> Key Code requried to define the keys starts with a 0x for hex number. Future I willprovide a more convinient way to define key.</li>
+<li>     CtrlKey determines which key to push to do the open,close,rename operation. That is CtrlKey + Left will navigate to the next tab
+MoveKey determine which key to push when we want to move a tab forward or backward. That is MoveKey + Left will <em>move</em> the current tab to the next</li>
+</ol><h2>Acknowledgement</h2>
+
+<p>Author(s) of rxvt and its unicode support. </p>
+
+<p>Author(s) of the original tabbed perl script.</p>
+
+<h2>Contact</h2>
+
+<p>KuantKid(LI,Wei) [username] at gmail dot com</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Urxvt Utilities maintained by <a href="https://github.com/kuantkid">kuantkid</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-34392719-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
