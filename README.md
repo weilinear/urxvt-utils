@@ -7,7 +7,7 @@ tabbed_enh : Enhanced tab management tools for rxvt(urxvt) modified from the ori
 
 Install
 -------
-	$ git clone https://github.com/cvhacker/urxvt-utils.git && make
+	$ git clone https://github.com/kuantkid/urxvt-utils.git && make
 	$ /usr/bin/urxvt -pe tabbed_enh
 
 You may need authority currently to install this plugin. Or else you can copy the file into a desired foler and change the perl library path before using. That is by using the following script to start the urxvt
@@ -52,4 +52,4 @@ Author(s) of the original tabbed perl script.
 
 Contact
 -------
-cvhacker(LI,Wei) cv****er@live.com
+KuantKid(LI,Wei) [username] <at> gmail.com
