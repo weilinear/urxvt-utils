@@ -52,4 +52,4 @@ Author(s) of the original tabbed perl script.
 
 Contact
 -------
-KuantKid(LI,Wei) [username] at gmail dot com
+weilinear (LI,Wei) [username] at gmail dot com
